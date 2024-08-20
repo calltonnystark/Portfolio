@@ -6,10 +6,10 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'File Compression System Using Huffman Coding',
+        description: "This project presents a file compression system utilizing the Huffman coding algorithm, a well-known method in data compression. Huffman coding is an optimal prefix code that assigns variable-length codes to input characters, with shorter codes assigned to more frequent characters. This system efficiently compresses files by reducing the overall size while ensuring lossless data recovery. The project demonstrates the implementation of the Huffman coding algorithm, showcasing its effectiveness in minimizing storage requirements and improving data transmission efficiency.",
+        tools: ['Java', 'Huffman Coding', 'Priority Queue', 'Hash Table', 'Bit Manipulation', 'Greedy Algorithms'],
+        role: 'Problem Solver',
         code: '',
         demo: '',
         image: crefin,
@@ -26,9 +26,9 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: ' Job Portal',
+        description: 'This project is a job portal web application developed using the MERN stack (MongoDB, Express, React, Node.js) with state management facilitated by Redux and Redux-Toolkit. The platform enables job seekers to create profiles, search for job listings, and apply for positions. Employers can post job openings, review applications, and manage their listings. The use of React ensures a dynamic and responsive user interface, while Node.js and Express handle the server-side logic and API endpoints. MongoDB serves as the database for storing user and job-related data. Redux and Redux-Toolkit provide a streamlined approach to state management, ensuring efficient data handling and a seamless user experience.',
+        tools: ['React', 'Bootstrap', 'SCSS', 'Axios', 'Express', 'Redux and Redux-Toolkit', 'MongoDB', 'JWT'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
